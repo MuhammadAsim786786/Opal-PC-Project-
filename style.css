@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #ffffff;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  padding: 4.8rem 3.2rem 6.4rem 19.4rem;
+  gap: 64.4rem;
+}
+.header-img {
+  height: 2.2rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  gap: 3.2rem;
+  /* font-family: Inter; */
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* header */
+
+/* Auto layout
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 484px;
+
+position: absolute;
+height: 52.62px;
+left: 0px;
+right: 217px;
+top: 55px; */
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+}
+.container-hero {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 7.2rem;
+  margin-bottom: 8rem;
+}
+.heading-primary span {
+  color: #5452b8;
+}
+.heading-primary {
+  font-family: Nunito Sans;
+  font-size: 4.2rem;
+  font-weight: 800;
+  line-height: 5.3rem;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+.hero-text-box {
+  margin-top: 8rem;
+}
+.hero-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  margin-bottom: 3.2rem;
+  margin-top: 1.2rem;
+}
+/* 1 */
+.blue-bullets {
+  list-style: none;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  margin-top: 3.2rem;
+}
+
+.blue-bullets li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.blue-bullets li::before {
+  content: "•";
+  color: blue;
+  font-size: 2.5rem;
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  line-height: 2.4rem;
+}
+.companies {
+  list-style: none;
+  display: block;
+  margin-top: 1.2rem;
+  display: flex;
+}
+.hero-img {
+  position: relative;
+}
+.company-img {
+  width: 85%;
+}
+.Main-img {
+  width: 100%;
+}
+.Secondary-img {
+  width: 85%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translate(21%, 50%);
+}
+.Tertiary-img {
+  width: 28%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translate(5%, 1200%);
+}
+/* Testimonial */
+.testimonial-section {
+  background-color: #e6ecf8;
+  padding: 1.4rem;
+  margin-bottom: 9.6rem;
+}
+.client {
+  display: flex;
+  gap: 9.6rem;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.client-name {
+  font-family: Nunito Sans;
+  font-size: 1.8rem;
+  font-weight: 800;
+  /* line-height: 19.11rem; */
+  margin-left: 9.8rem;
+}
+.role {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.client-testimonial {
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 3.4rem;
+  padding: 9.6rem;
+}
+.Quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(350%, 50%);
+}
+/* Section-Findings */
+.center-text {
+  text-align: center;
+}
+.heading-primary-text {
+  font-size: 5.2rem;
+  font-weight: 800;
+  line-height: 6.6rem;
+  letter-spacing: 0.02em;
+}
+.effots-text {
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 4.82rem;
+  letter-spacing: 0.02em;
+  color: #5452b8;
+}
+.grid-settings {
+  gap: 1.6rem;
+  align-items: center;
+  margin-top: 8rem;
+}
+.finding-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* .special {
+  position: relative;
+} */
+
+/* .finding-img-absolute-01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-10%, -10%);
+}
+.finding-img-absolute-02 {
+  position: absolute;
+  transform: translate(50%, 50%);
+} */
+.finding-foot {
+  font-family: Nunito Sans;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 3.553rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.btn-foot {
+  margin-top: 1.8rem;
+  border-radius: 5px !important;
+  margin-bottom: 6.4rem;
+}
+/* Featured-Section */
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+  background-color: #dde5f5;
+  margin-bottom: 9.6rem;
+}
+.heading-featured-in {
+  font-family: Nunito Sans;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 3.553rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3.2rem;
+}
+.logos img {
+  height: 3.8rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+/* Pricing-Section */
+/* General Styling */
+.section-pricing {
+  margin-bottom: 9.6rem;
+}
+
+.pricing-plan {
+  padding: 4.6rem;
+  border: 0.5px solid #5452b8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-plan-starter {
+  padding: 4.6rem;
+  border-radius: 15px 0 0 15px;
+}
+
+.pricing-plan-ender {
+  padding: 8rem;
+  border-radius: 0 15px 15px 0;
+}
+
+.pricing-header {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 4.822rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #03015a;
+  padding: 2.4rem 12.8rem;
+  background-color: #dde4f8;
+  border-radius: 0.6rem;
+}
+
+.pricing-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  margin-top: 3.2rem;
+  font-size: 2.4rem;
+}
+
+.span-pricing {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.pricing-price p:last-child {
+  text-align: center;
+  margin-bottom: 3.2rem;
+  color: #424242;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  line-height: 1.2;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #424242;
+}
+
+.check-mark {
+  color: #00df76;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.btn--outline {
+  border: 1px solid #03015a;
+  color: #03015a;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn--outline:hover {
+  background-color: #03015a;
+  color: #fff;
+}
+
+.btn--full {
+  background-color: #03015a;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
+}
+
+.btn--full:hover {
+  background-color: #5452b8;
+}
+
+.margin-right-sm {
+  margin-right: 1rem;
+}

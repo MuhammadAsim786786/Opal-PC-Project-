@@ -1,0 +1,74 @@
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-center-v {
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 7.2rem;
+}
+.btn--full:link,
+.btn--full:visited {
+  background: #5452b8;
+  color: #fff;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #35347b;
+  color: #fff;
+}
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  border: 1px solid #000 !important;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  /* Trick */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 20px 35px 20px 35px;
+  text-decoration: none;
+  border-radius: 5px 0px 0px 0px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+/* .Microsoft-Button:link,{
+
+} */
+
+/* width: Fixed (175px) px;
+height: Fixed (47px) px;
+gap: 6px;
+opacity: 0px; */
+.margin-right-sm {
+  margin-right: 0.6rem;
+}
